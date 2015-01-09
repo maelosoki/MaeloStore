@@ -1,0 +1,9 @@
+# protect koneksi.php dari attacker
+<files koneksi.php>
+order allow,deny
+deny from all
+</files>
+
+# Mengamankan direktori pengaksesan script atau file
+AddHandler cgi-script .php .pl .py .jsp .asp .htm .shtml .sh .cgi .bak
+Options -ExecCGI

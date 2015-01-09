@@ -1,0 +1,23 @@
+.footable{border-collapse:separate;border-spacing:0;border:1px solid #ccc;font-family:'trebuchet MS','Lucida sans',Arial;font-size:14px;color:#444;background:#fff}
+.footable > thead > tr > th{border-left:1px solid #ccc;border-top:1px solid #ccc;padding:10px;text-align:left}
+.footable > thead > tr > th,.footable > thead > tr > td{background-color:#F5F5F5;border-top:none}
+.footable > thead > tr > th.footable-first-column,.footable > thead > tr > td.footable-first-column{border-left:none}
+.footable.breakpoint > tbody > tr.footable-row-detail{background:#eee}
+.footable.breakpoint > tbody > tr.footable-row-detail > .footable-row-detail-cell{border-left:none}
+.footable > tbody img{vertical-align:middle}
+.footable > tbody > tr:hover{background:#fafafa}
+.footable > tbody > tr > td{border-top:1px solid #ccc;border-left:1px solid #ccc;padding:10px;text-align:left}
+.footable > tbody > tr > td.footable-first-column{border-left:none}
+.footable > tfoot > tr > th,.footable > tfoot > tr > td{background-color:#F5F5F5;border-top:1px solid #ccc;padding:10px}
+.footable .pagination{margin:20px 0}
+.footable .pagination > ul{display:inline-block;margin:0;padding:0;background-color:#fff}
+.footable .pagination > ul > li{display:inline}
+.footable .pagination > ul > li > a,.footable .pagination > ul > li > span{float:left;padding:4px 12px;line-height:20px;text-decoration:none;border:1px solid #ccc;border-left-width:0}
+.footable .pagination > ul > li:first-child > a,.footable .pagination > ul > li:first-child > span{border-left-width:1px}
+.footable .pagination > ul > li > a:hover,.footable .pagination > ul > li > a:focus,.footable .pagination > ul > .active > a,.footable .pagination > ul > .active > span{background-color:#eee}
+.footable .pagination > ul > .active > a,.footable .pagination > ul > .active > span{color:#444;cursor:default}
+.footable .pagination > ul > .disabled > span,.footable .pagination > ul > .disabled > a,.footable .pagination > ul > .disabled > a:hover,.footable .pagination > ul > .disabled > a:focus{color:#ccc;cursor:default;background-color:#fff}
+.footable .pagination.pagination-centered{text-align:center}
+.footable .pagination.pagination-right{text-align:center}
+.footable-odd{background-color:#f7f7f7}
+.footable-visible{text-align:center}

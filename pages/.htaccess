@@ -1,0 +1,12 @@
+# Mencegah bot mengakses file *.php
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} POST
+RewriteCond %{REQUEST_URI} .newsletter\.php*
+RewriteCond %{REQUEST_URI} .komentar\.php*
+RewriteCond %{REQUEST_URI} .hubungi_aksi\.php*
+RewriteCond %{REQUEST_URI} .testimoni_aksi\.php*
+RewriteCond %{HTTP_REFERER} !.*localhost.* [OR]
+RewriteCond %{HTTP_USER_AGENT} ^$
+RewriteRule (.*) ^http://%{REMOTE_ADDR}/$ [R=301,L]
+</IfModule>

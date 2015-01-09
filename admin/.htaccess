@@ -1,0 +1,16 @@
+# Mencegah bot mengakses file *.php
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} POST
+RewriteCond %{REQUEST_URI} .login\.php*
+RewriteCond %{REQUEST_URI} .forgot_send\.php*
+RewriteCond %{HTTP_REFERER} !.*localhost.* [OR]
+RewriteCond %{HTTP_USER_AGENT} ^$
+RewriteRule (.*) ^http://%{REMOTE_ADDR}/$ [R=301,L]
+</IfModule>
+
+# protect jejak.txt
+<files jejak.txt>
+order allow,deny
+deny from all
+</files>

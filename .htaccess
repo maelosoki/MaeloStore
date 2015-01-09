@@ -1,0 +1,192 @@
+# STRONG HTACCESS PROTECTION - Mencegah Akses ke .htaccess
+<Files ~ “^.*\.([Hh][Tt][Aa])”>
+order allow,deny
+deny from all
+satisfy all
+</Files>
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+# Hilangkan tanda # dibawah ini untuk Installasi CMS Lokomedia di Spanel (kontrol panel hosting masterweb.net / masterweb.com)
+# RewriteBase /
+
+RewriteRule ^home$ page.php?module=home [L]
+RewriteRule ^produk$ page.php?module=produk [L]
+RewriteRule ^halproduk-(.*)$ page.php?module=produk&halproduk=$1 [L]
+RewriteRule ^produk-(.*)$ page.php?module=detail&id=$1 [L]
+RewriteRule ^halkomentar-(.*)-([0-9]+)$ page.php?module=detail&id=$1&halkomentar=$2 [L]
+RewriteRule ^komentar$ page.php?module=komentar [L]
+RewriteRule ^hasil-pencarian$ page.php?module=hasilcari&id=$1 [L]
+RewriteRule ^kategori-([0-9]+)-(.*)$ page.php?module=kategori&id=$1 [L]
+RewriteRule ^halkategori-([0-9]+)-(.*)$ page.php?module=kategori&id=$1&halkategori=$2 [L]
+RewriteRule ^testimoni$ page.php?module=testimoni [L]
+RewriteRule ^testimoni_respon$ page.php?module=testimoniaksi&id=$1 [L]
+RewriteRule ^kontak$ page.php?module=kontak [L]
+RewriteRule ^kontak_respon$ page.php?module=kontakrespon [L]
+RewriteRule ^artikel-(.*)$ page.php?module=artikel&id=$1 [L]
+RewriteRule ^artikel$ page.php?module=allartikel [L]
+RewriteRule ^halartikel-(.*)$ page.php?module=allartikel&halartikel=$1 [L]
+RewriteRule ^newsletter$ page.php?module=newsletter&id=$1 [L]
+RewriteRule ^aktivasi-newsletter-(.*)$ page.php?module=subscribe&kode=$1 [L]
+RewriteRule ^berhenti-langganan-(.*)$ page.php?module=unsubscribe&code=$1 [L]
+RewriteRule ^halaman-(.*)$ page.php?module=halaman&id=$1 [L]
+RewriteRule ^download$ page.php?module=download&id=$1[L]
+RewriteRule ^album-([0-9]+)-(.*)$ page.php?module=detailalbum&id=$1 [L]
+RewriteRule ^galeri$ page.php?module=semuaalbum&id=$1 [L]
+RewriteRule ^halgaleri-([0-9]+)-(.*)$ page.php?module=detailalbum&id=$1&halgaleri=$2 [L]
+RewriteRule ^pertanyaan$ page.php?module=faq [L]
+RewriteRule ^halpencarian-(.*)-(.*)-([0-9]+)$ page.php?module=hasilcari&kata=$1&kategori=$2&halpencarian=$3 [L]
+RewriteRule ^error$ page.php?module=error [L]
+RewriteRule (.*)upload/(.*\.(jpe?g|gif|png))$ $1watermark.php?p=br&q=90&src=upload/$2
+
+RewriteRule ^install$ install.php?module=install [L]
+RewriteRule ^check$ install.php?module=check [L]
+RewriteRule ^setuju$ install.php?module=setuju [L]
+RewriteRule ^step1$ install.php?module=step1 [L]
+RewriteRule ^step2$ install.php?module=step2 [L]
+RewriteRule ^step3$ install.php?module=step3 [L]
+RewriteRule ^step4$ install.php?module=step4 [L]
+RewriteRule ^finish$ install.php?module=finish [L]
+RewriteRule ^hapus$ install.php?module=hapus [L]
+RewriteRule ^lihatweb$ install.php?module=lihatweb [L]
+
+# HotLinking Protection - Prevent Hot Linking and Bandwidth Leeching
+# Trik Hemat Bandwidth Hosting dengan melindungi gambar dari Crawling & Indexing web/bot
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?localhost [NC] #Ganti dengan domain anda jika sudah online
+
+# Daftar situs yang bisa mengakses Gambar Anda
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?google.co.id [NC]
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?facebook.com [NC]
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?twitter.com [NC]
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?google.com [NC]
+RewriteRule \.(jpg|jpeg|png|gif)$ - [NC,F,L]
+
+</IfModule>
+
+# ##############################################################################
+# # WEB PERFORMANCE                                                            #
+# ##############################################################################
+
+# ------------------------------------------------------------------------------
+# | Compression                                                                |
+# ------------------------------------------------------------------------------
+
+<IfModule mod_deflate.c>
+
+    # Force compression for mangled headers.
+    # http://developer.yahoo.com/blogs/ydn/posts/2010/12/pushing-beyond-gzipping
+    <IfModule mod_setenvif.c>
+        <IfModule mod_headers.c>
+            SetEnvIfNoCase ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\s*,?\s*)+|[X~-]{4,13}$ HAVE_Accept-Encoding
+            RequestHeader append Accept-Encoding "gzip,deflate" env=HAVE_Accept-Encoding
+        </IfModule>
+    </IfModule>
+
+    # Compress all output labeled with one of the following MIME-types
+    # (for Apache versions below 2.3.7, you don't need to enable `mod_filter`
+    #  and can remove the `<IfModule mod_filter.c>` and `</IfModule>` lines
+    #  as `AddOutputFilterByType` is still in the core directives).
+    <IfModule mod_filter.c>
+        AddOutputFilterByType DEFLATE application/atom+xml \
+                                      application/javascript \
+                                      application/json \
+                                      application/rss+xml \
+                                      application/vnd.ms-fontobject \
+                                      application/x-font-ttf \
+                                      application/x-web-app-manifest+json \
+                                      application/xhtml+xml \
+                                      application/xml \
+                                      font/opentype \
+                                      image/svg+xml \
+                                      image/x-icon \
+                                      text/css \
+                                      text/html \
+                                      text/plain \
+                                      text/x-component \
+                                      text/xml
+    </IfModule>
+
+</IfModule>
+
+# Caching & Simple Ways to Secure Your Website
+<IfModule mod_headers.c>
+    <FilesMatch "\.(js|css|xml|gz)$">
+        Header append Vary Accept-Encoding
+    </FilesMatch>
+    <FilesMatch "\.(ico|jpe?g|png|gif|swf)$">
+        Header set Cache-Control "public"
+    </FilesMatch>
+    <FilesMatch "\.(css)$">
+        Header set Cache-Control "public"
+    </FilesMatch>
+    <FilesMatch "\.(js)$">
+        Header set Cache-Control "private"
+    </FilesMatch>
+    <FilesMatch "\.(x?html?|php)$">
+        Header set Cache-Control "private, must-revalidate"
+    </FilesMatch>
+	
+	Header set X-Permitted-Cross-Domain-Policies "none"
+	Header set X-Content-Type-Options "nosniff"
+	Header unset X-Powered-By
+	Header set X-XSS-Protection "1; mode=block"
+	Header set X-Frame-Options "DENY"
+	Header set X-Content-Security-Policy "default-src 'self'; img-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'self' 'unsafe-inline'; connect-src 'self';"
+	Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+</IfModule>
+
+# Security - Block access to backup and source files.
+<FilesMatch "(^#.*#|\.(bak|config|dist|fla|inc|ini|log|psd|sh|sql|sw[op])|~)$">
+    Order allow,deny
+    Deny from all
+    Satisfy All
+</FilesMatch>
+
+# protect maelostore.zip
+<files maelostore.zip>
+order allow,deny
+deny from all
+</files>
+
+# protect install.txt
+<files install.txt>
+order allow,deny
+deny from all
+</files>
+
+# protect readme.txt
+<files readme.txt>
+order allow,deny
+deny from all
+</files>
+
+# protect robots.txt
+<files robots.txt>
+order allow,deny
+deny from all
+</files>
+
+# Mengamankan direktori pengaksesan script atau file
+AddHandler cgi-script .pl .py .jsp .asp .htm .shtml .sh .cgi
+Options -ExecCGI
+
+# Mencegah server dari serangan DoS ( Denial Of Service ) - Disini kita membatasi ukuran upload sebesar 10240000 byte yang setara dengan 10 mb
+LimitRequestBody 10240000
+
+# Mencegah user melakukan browsing tanpa pesan Error 403
+IndexIgnore *
+
+# Mencegah error 501 Method Not Implement ketika installasi CMS MaeloStore di hosting
+<IfModule mod_security.c>
+  SecFilterEngine Off
+  SecFilterScanPOST Off
+</IfModule>
+
+# Mencegah user melakukan browsing pada setiap direktori server
+# Hilangkan tanda # dibawah ini jika hosting anda mendukung, beberapa hosting melarang penggunaan Options All -Indexes / Options All +Indexes
+# Options All -Indexes
+
+# 404 (Page Not Found)
+ErrorDocument 404 /404.html

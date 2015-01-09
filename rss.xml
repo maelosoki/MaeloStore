@@ -1,0 +1,126 @@
+<?xml version="1.0"?> 
+  <rss version="2.0"><channel> 
+				<title>Penerbit Lokomedia Yogyakarta</title> 
+				<link>http://localhost</link> 
+				<image>
+				<url>http://localhost/images/logo.png</url>
+				<link>http://localhost</link>
+				<width>100</width>
+				<height>35</height>
+				</image>
+				<language>id-id</language><item>
+                 <title>Teknik Cepat Menguasai CSS3</title>
+                 <link>http://localhost/produk-679-teknik-cepat-menguasai-css3</link>
+                 <description>Dalam dunia design grafis, tentu sudah 
+tidak asing dengan istilah gradient, transform, rounded corner, RGBA 
+Color, polaroid, shadow, glow, reflection, cropping, sliding, masking, 
+dll. Dalam CSS 3, kita dimungkinkan untuk membuat&amp;nbsp; efek-efek tersebut 
+tanpa melibatkan gambar, sehingga ukuran filenya jauh lebih kecil dan 
+ringan diakses dalam website.
+
+Tidak hanya itu saja, CSS 3 pun mempunyai kemampuan menciptakan 
+efek-efek&amp;nbsp; jQuery, seperti animasi, slideshow, ...</description>
+                 </item><item>
+                 <title>Sistem Penerimaan Mahasiswa Baru Berbasis Web dan Mobile</title>
+                 <link>http://localhost/produk-678-sistem-penerimaan-mahasiswa-baru-berbasis-web-dan-mobile</link>
+                 <description>Kok bukunya tipis sih? Ya iyalah, buku ini
+ kan 'spesialis' buku praktek. Pada intinya, buku ini membahas 
+langkah-langkah rahasia dalam membangun Sistem Informasi Penerimaan 
+Mahasiswa Baru (PMB) Berbasis Web dan Mobile, hanya dalam 5 STEP SAJA. 
+Anda akan kami bimbing secara step by step untuk langsung ACTION 
+membangun dua sistem tersebut menggunakan bahasa pemrograman PHP dan 
+WML, serta database MySQL.
+
+Apa saja sih 5 STEP tersebut?? Nahh,, temukan jawabannya didalam buku 
+ini. ...</description>
+                 </item><item>
+                 <title>Membuat Toko Online Berbasis AJAX dengan Prestashop</title>
+                 <link>http://localhost/produk-677-membuat-toko-online-berbasis-ajax-dengan-prestashop</link>
+                 <description>Prestashop merupakan salah satu CMS toko 
+online gratis yang mulai banyak digunakan saat ini. Disamping karena 
+kemudahan instalasi dan penggunaannya, disertai juga dengan fitur-fitur 
+lengkap untuk keperluan toko online. Adapun dari segi tampilan 
+disediakan banyak template cantik yang bisa digonta-ganti, serta 
+interaktifitas tinggi menggunakan teknologi AJAX, dan dukungan Bahasa 
+Indonesia.
+
+Beberapa fitur unggulan Prestashop, diantaranya: Newsletter. Program 
+Afiliasi. Customer ...</description>
+                 </item><item>
+                 <title>Trik Membuat Web Template dengan PHP dan CSS</title>
+                 <link>http://localhost/produk-676-trik-membuat-web-template-dengan-php-dan-css</link>
+                 <description>Secanggih apapun sebuah website, jika 
+tidak didukung dengan tampilan desain (template) yang cantik, maka 
+website tersebut terlihat tidak menarik dan membosankan. Dalam buku ini 
+dibahas cara membuat template untuk dijadikan sebagai desain sebuah 
+website, sehingga website terlihat bagus penampilannya. Asyiknya lagi, 
+kita cukup memodifikasi template-template CSS/HTML gratisan. Sehingga 
+terbebas dari masalah copyright/HAKI.
+
+Disamping itu, pembahasan buku ini disertai studi kasus, ...</description>
+                 </item><item>
+                 <title>Trik Dahsyat Menguasai AJAX dengan jQuery</title>
+                 <link>http://localhost/produk-675-trik-dahsyat-menguasai-ajax-dengan-jquery</link>
+                 <description>Setelah tahun lalu SUKSES menulis buku 
+tentang jQuery pertama di Indonesia, kini penulis&amp;nbsp; akan membeberkan 
+rahasia kedahsyatan AJAX yang dibuat dengan jQuery. Selain lebih mudah 
+dipelajari, belajar AJAX dengan jQuery terasa lebih menyenangkan, karena
+ kita akan dimanjakan dengan animasi dan tampilan cantik khas jQuery. 
+
+Beberapa kasus aplikatif dan trik pilihan yang dibahas dalam buku ini, diantaranya: 
+Trik Dasar AJAX dengan jQueryCek Username Secara LiveIndikator Kekuatan ...</description>
+                 </item><item>
+                 <title>Teknik Cepat Membangun Web dengan Framework CakePHP</title>
+                 <link>http://localhost/produk-674-teknik-cepat-membangun-web-dengan-framework-cakephp</link>
+                 <description>CakePHP hadir sebagai alternatif bagi Anda
+ yang masih kesulitan mempelajari framework. Sesuai dengan namanya, 
+CakePHP&amp;nbsp; menawarkan kemudahan dalam membuat aplikasi web dengan cepat 
+(RAD: Rapid Application Development), menjadikan belajar framework 
+se-enak menikmati kue favorit. Contohnya, dengan fitur Scaffolding, Anda
+ bisa membuat operasi CRUD (Create, Read, Update, Delete) hanya dengan 3
+ baris kode, padahal kalau Anda membuatnya secara manual membutuhkan 
+bahkan ratusan ...</description>
+                 </item><item>
+                 <title>Trik dan Solusi Jitu Pemrograman Web</title>
+                 <link>http://localhost/produk-673-trik-dan-solusi-jitu-pemrograman-web</link>
+                 <description>Dalam membangun web, kita tidak bisa hanya
+ mengandalkan satu perangkat saja, misalnya PHP. Karena terkadang, ada 
+beberapa permasalahan yang mengharuskan kita menggunakan perangkat lain,
+ misalnya AJAX, DOM, Javascript, XML, dan CSS. 
+Dengan AJAX, kita bisa mengedit data secara langsung (Edit in Place), tanpa harus bolak-balik berpindah halaman.Memanipulasi HTML dengan DOM (Document Object Model).Mempercantik Tabel yang bisa Auto Scroll atau,Membuat Menu Berbentuk Ikon atau,Membuat Themes ...</description>
+                 </item><item>
+                 <title>Proyek Membuat Website Sekolah dengan Joomla!</title>
+                 <link>http://localhost/produk-672-proyek-membuat-website-sekolah-dengan-joomla</link>
+                 <description>Dalam buku ini, Anda akan mempelajari 
+cara Membuat Proyek Website Sekolah dengan Joomla yang meliputi Desain 
+Template Web Sekolah, Kata Pengantar Pengelola Sekolah, Agenda, Galeri 
+Kegiatan, Download File, Mini Chatting, Menu Utama Sekolah, dan 
+sebagainya. 
+
+Pembahasan dimulai dari Instalasi dan Dasar-Dasar Joomla sampai Membuat Proyek Siap Pakai. Adapun topik bahasannya antara lain:
+Persiapan Lahan Website Sekolah. 
+	Renovasi Joomla Hingga Menjadi Website Sekolah. 
+	Memilih ...</description>
+                 </item><item>
+                 <title>67 Trik dan Ide Brilian Master PHP</title>
+                 <link>http://localhost/produk-671-67-trik-dan-ide-brilian-master-php</link>
+                 <description>Selama 2 tahun, saya telah menulis ratusan trik PHP dengan pendekatan case study dan problem solving melalui Blog (http://blog.rosihanari.net)
+ dan telah mendapat ribuan respon positif dari pengunjung. Melalui buku 
+ini, disajikan kembali trik-trik terfavorit yang sudah diedit, 
+dilengkapi tampilan hasil script, dan source code siap pakai. Sehingga 
+lebih mudah dipahami dan dipelajari. Berikut beberapa trik yang dibahas:
+ 
+Teknik Debugging Script PHP (Beberapa Error di PHP, Penyebabnya, ...</description>
+                 </item><item>
+                 <title>9 Langkah Menjadi Master Framework Codeigniter</title>
+                 <link>http://localhost/produk-670-9-langkah-menjadi-master-framework-codeigniter</link>
+                 <description>Codeigniter merupakan salah satu Framework
+ web berbasis PHP yang sangat populer saat ini, digunakan oleh berbagai 
+kalangan, mulai dari web programmer sampai web developer. 
+Membangun aplikasi framework web dengan Codeigniter merupakan salah satu
+ keputusan yang sangat tepat. Karena banyaknya keuntungan dan 
+fitur-fitur yang disediakan, seperti helper dan class library yang 
+lengkap serta user guide yang mudah dimengerti semua kalangan. 
+
+Dalam buku ini akan dibahas cara penggunaan ...</description>
+                 </item></channel></rss>

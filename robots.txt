@@ -1,0 +1,24 @@
+User-Agent: *
+Disallow: 
+Disallow: /block
+Disallow: /cache
+Disallow: /captcha
+Disallow: /config
+Disallow: /css
+Disallow: /files
+Disallow: /foto_artikel
+Disallow: /foto_banner
+Disallow: /foto_produk
+Disallow: /images
+Disallow: /img_album
+Disallow: /img_galeri
+Disallow: /js
+Disallow: /pages
+Disallow: /upload
+Disallow: /*.php$
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /*.html$
+Disallow: /*.txt$
+
+Sitemap: http://bukulokomedia.com/sitemap.xml

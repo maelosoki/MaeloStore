@@ -1,0 +1,47 @@
+﻿/* TEAM */
+	Author: Ari JM
+	Contact: arijm1707 [at] gmail.com
+	Twitter: @arijm1707
+
+	Developer: Maelosoki
+	Company: CV Maelosoki
+	NPWP: 31.823.484.6-216.000
+	Akta Notaris No: C-424.HT.03.01 Th. 2006
+	Contact: maelosoki [at] gmail.com / maelosoki [at] yahoo.com
+	Twitter: @maelosoki
+	Website: web.maelosoki.com
+	From: Pekanbaru, Riau, Indonesia
+
+/* THANKS */
+	Leader: Lukmanul Hakim
+	Contact: lukman [at] bukulokomedia.com
+	Twitter: @bukulokomedia
+	Website: bukulokomedia.com
+	From: Kricak, Yogyakarta
+
+	My Friend: Munajat
+	Contact: hasilcopas [at] gmail.com
+	Website: www.rangkasku.web.id
+	From: Raskasbitung, Lebak, Banten
+
+	My Inspiration: Dian Kurniawan
+	Contact: iantzt [at] yahoo.com
+	Website: blogiant.web.id
+	From: Bandung, Jawa Barat
+	
+	My Inspiration: Al Mazari, S. T
+	Contact: almazary [at] gmail.com
+	Twitter: @allmazari
+	Website: dokumenary.wordpress.com
+	From: Rimbo Bujang, Tebo, Jambi
+	
+	My Inspiration: Willy Cauza
+	Contact: surat [at] cauza.web.id / cauza04 [at] gmail.com / cauza04 [at] yahoo.com
+	Twitter: @cauza04
+	Website: cauza.web.id
+	From: Ilir Timur II, Palembang, Sumatera Selatan
+
+/* SITE */
+	Last update: 2014/12/05
+	Doctype: HTML5
+	IDE: Notepad++, FileZilla, Photoshop
