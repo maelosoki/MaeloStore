@@ -167,6 +167,7 @@ CMS for Web publishing and product catalog. Base on CMS Lokomedia
      - Penambahan Fitur Layanan Installer, untuk mempermudah user memasang CMS MaeloStore
      - Penambahan Fitur Full Backup website dalam format .zip untuk mempermudah migrasi hosting, lihat pada bagian database
      - Perubahan pada file readme.txt dan cara installasi CMS MaeloStore
+     - Penambahan animasi pada gambar seperti berputar, geser, dan skala hanya dengan memanfaatkan CSS3 Transitions, CSS3 Transforms & CSS3 Opacity. Tanpa melibatkan Javascript, AJAX, jQuery maupun Flash
      - Fix some bug & Security
   + 06/01/2015 [CMS MaeloStore V.1.4.3] Minor Update
      - Penambahan auto deteksi file jejak.txt, Jika file jejak.txt telah melebihi 10MB akan dihapus supaya tidak menghabiskan space hosting
