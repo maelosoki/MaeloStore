@@ -86,7 +86,7 @@
   + Katalog Online ini dibuat dengan Framework "CMS Lokomedia"
   + Dukungan HTML5 & CSS3 untuk browser lama & IE7-IE9
   + Dukungan Responsive Design (min/max-width media query polyfill) untuk IE 6-8
-  + Desain web mengadopsi "Adaptive Web Design (AWD)î bukan ìResponsive Web Design (RWD)ì untuk keterangan lebih lanjut silakan baca di www.stoepy.com/adaptive-dan-responsive-web-design/
+  + Desain web mengadopsi "Adaptive Web Design (AWD)‚Äù bukan ‚ÄúResponsive Web Design (RWD)‚Äú untuk keterangan lebih lanjut silakan baca di www.stoepy.com/adaptive-dan-responsive-web-design/
   + Support screen size minimal hingga 240x320 (bisa untuk hp jadul, hehe..., tp browsingnya jgn pakai opera mini, pakai browser bawaan hp saja)
   + Menggunakan <noscript>
   + Sebahagian gambar telah mendukung retina display
@@ -156,7 +156,7 @@
      - Statemen untuk kebutuhan Selection dan Looping; lengkap
      - Fasilitas menyatakan berbagai type data (struktur data); lengkap dan tegas
      - Fasilitas pemberian komentar; lengkap 
-     - Fasilitas instruksi yang tersedia (operasi arithmatik/matematik, string, Ö); lengkap
+     - Fasilitas instruksi yang tersedia (operasi arithmatik/matematik, string, ‚Ä¶); lengkap
      - Fasilitas modular (baik internal maupun eksternal); lengkap
      - Fasilitas debugging, mudah dan jelas
 --------------------------------
@@ -179,6 +179,7 @@
      - Penambahan Fitur Layanan Installer, untuk mempermudah user memasang CMS MaeloStore
      - Penambahan Fitur Full Backup website dalam format .zip untuk mempermudah migrasi hosting, lihat pada bagian database
      - Perubahan pada file readme.txt dan cara installasi CMS MaeloStore
+     - Penambahan animasi pada gambar seperti berputar, geser, dan skala hanya dengan memanfaatkan CSS3 Transitions, CSS3 Transforms & CSS3 Opacity. Tanpa melibatkan Javascript, AJAX, jQuery maupun Flash
      - Fix some bug & Security
   + 06/01/2015 [CMS MaeloStore V.1.4.3] Minor Update
      - Penambahan auto deteksi file jejak.txt, Jika file jejak.txt telah melebihi 10MB akan dihapus supaya tidak menghabiskan space hosting
