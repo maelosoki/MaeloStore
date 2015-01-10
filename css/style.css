@@ -484,7 +484,7 @@ body:after{content:url(../images/close.png) url(../images/loading.gif) url(../im
 .logo{margin:10px 0}
 .pro-content{background:#FFF;height:auto}
 .lainnya2{float:left;width:190px;border:1px solid #DAD8D8;margin-bottom:10px}
-.lainnya2:hover{border:1px solid #E20C0C}
+.lainnya2:hover{transform:scale(1.1);background:#FFFFFF;border:1px solid #DAD8D8}
 .lainnya{width:100%;border:1px solid #DAD8D8;text-align:center;margin:0 0 10px}
 .lainnya:hover{border:1px solid #E20C0C}
 .lainnya img{margin:10px 0 0}
