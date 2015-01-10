@@ -64,7 +64,8 @@ body{-webkit-text-size-adjust:none;-ms-text-size-adjust:none;width:100%;min-widt
 ul,li,h1,h2,h3,h4,h5,h6{margin:0;padding:0;list-style:none}
 .header-wrapper{display:block;width:100%;padding:3px 0 0}
 header{max-width:1000px;margin:0 auto}
-.header-wrapper header .logo{padding:0;float:left;width:auto}
+.header-wrapper header .logo{-webkit-transition:transform 1s;transition:transform 1s;padding:0;float:left;width:auto}
+.header-wrapper header .logo:hover{-ms-transform:translate(10px,0px);-webkit-transform:translate(10px,0px);transform:translate(10px,0px)}
 .header-wrapper header .head-right{float:right;width:auto}
 .header-wrapper header .header-bottom{float:right;padding:20px 0 0;max-width:650px}
 .header-wrapper header .search-block{border:1px solid #E6E6E6;width:372px;float:left;margin-bottom:10px}
@@ -90,7 +91,8 @@ header{max-width:1000px;margin:0 auto}
 .flex-direction-nav li a.flex-next{background:#3a3a3a url(../images/banner_right_btn.png) no-repeat center center;margin-left:1px}
 .flex-direction-nav li:hover a.flex-prev,.flex-direction-nav li:hover a.flex-next{background-color:#e20c0c}
 .banner-wrapper .banner-block .banner-add{float:right;width:300px}
-.banner-wrapper .banner-block .banner-add li{border:1px solid #e6e6e6}
+.banner-wrapper .banner-block .banner-add li{-webkit-transition:transform 2s;transition:transform 2s;border:1px solid #e6e6e6}
+.banner-wrapper .banner-block .banner-add li:hover{-ms-transform:rotate(30deg);-webkit-transform:rotate(30deg);transform:rotate(-5deg);}
 .banner-wrapper .banner-block .banner-add li.add2{margin-top:7px}
 .banner-wrapper .banner-block .banner-add li img{display:block;width:100%}
 .content-wrapper{clear:both;padding-top:15px}
@@ -146,7 +148,8 @@ header{max-width:1000px;margin:0 auto}
 .col-left2 .block ul li{border-bottom:1px solid #ddd;display:inline-block;vertical-align:top;width:100%}
 .col-left2 .man-block ul li{line-height:30px}
 .col-main{float:right;width:765px;margin-bottom:30px}
-.category-banner{float:left;width:99%;padding-bottom:10px}
+.category-banner{-webkit-transition:opacity 1s;transition:opacity 1s;float:left;width:99%;padding-bottom:10px}
+.category-banner:hover{opacity:0.5;filter:Alpha(opacity=50)}
 .category-banner img{float:left;width:100%}
 .col-main .pager-container{float:left;width:100%;font-size:11px;color:#333;line-height:25px}
 .col-main .pager-container .pager{float:left;width:100%;border-top:1px solid;padding:10px 0}
@@ -483,7 +486,7 @@ body:after{content:url(../images/close.png) url(../images/loading.gif) url(../im
 }
 .logo{margin:10px 0}
 .pro-content{background:#FFF;height:auto}
-.lainnya2{float:left;width:190px;border:1px solid #DAD8D8;margin-bottom:10px}
+.lainnya2{-webkit-transition:transform 1s;transition:transform 1s;float:left;width:190px;border:1px solid #DAD8D8;margin-bottom:10px}
 .lainnya2:hover{transform:scale(1.1);background:#FFFFFF;border:1px solid #DAD8D8}
 .lainnya{width:100%;border:1px solid #DAD8D8;text-align:center;margin:0 0 10px}
 .lainnya:hover{border:1px solid #E20C0C}
@@ -518,6 +521,8 @@ a.prod_cart:hover{background:#ccc}
 .judul_artikel a{line-height:1}
 .ket_artikel{font-size:11px;font-style:italic;margin-bottom:5px}
 .banner_bawah{width:100%}
+.banner_bawah img{-webkit-transition:opacity 2s;transition:opacity 2s}
+.banner_bawah img:hover{opacity:0.5;filter:Alpha(opacity=50)}
 .gambar_artikel_detail{width:300px;margin:5px 5px 0 0;float:left}
 .pembatas_artikel_lainnya{clear:both;margin:20px 0;padding:5px 0;border-top:1px solid #DAD8D8;border-bottom:1px solid #DAD8D8;font-size:14px;font-weight:700}
 .gambar_artikel_lainnya{float:left;margin:0 10px 10px 0;border:1px solid #DAD8D8;padding:5px;line-height:0}
@@ -532,7 +537,8 @@ a.prod_cart:hover{background:#ccc}
 .slides,.flex-control-nav,.flex-direction-nav{margin:0;padding:0;list-style:none}
 .flexslider{margin:0;padding:0}
 .flexslider .slides > li{display:none;-webkit-backface-visibility:hidden}
-.flexslider .slides img{width:100%;display:block}
+.flexslider .slides img{-webkit-transition:opacity 1s;transition:opacity 1s;width:100%;display:block}
+.flexslider .slides img:hover{opacity:0.5;filter:Alpha(opacity=50)}
 .slides:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}
 * html .slides{height:1%}
 .flexslider{zoom:1}
