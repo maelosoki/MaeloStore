@@ -62,7 +62,9 @@ input[type=password]{padding:8px}
 </header>
 <?php
 if ($_GET['module']=='install'){
-	echo "<div class='pembatas'>";
+	echo "<div class='pembatas'>
+			<div class='judul'>Anda harus menyetujui Perjanjian Lisensi Pengguna Akhir ini<br />untuk dapat melanjutkan proses installasi</div>
+		";
 
 	// software license
 	$lokasi = 'license.txt';
@@ -70,7 +72,7 @@ if ($_GET['module']=='install'){
 	$buka = fopen($lokasi,'r');
 	$isi = fread($buka,$ukuran);
 	echo "<h3>EULA (End User License Agreement)</h3>
-	<textarea>$isi</textarea>";
+	<textarea readonly='readonly' disabled='disabled'>$isi</textarea>";
 	fclose($buka);
 
 	echo "</div>
