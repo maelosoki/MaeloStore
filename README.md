@@ -1,7 +1,7 @@
 #CMS MaeloStore V.1.5.0
 ------------------------------------------------------------------
 
-CMS for Web publishing and product catalog. Base on CMS Lokomedia
+CMS for Web publishing and product catalog.
 
 * Minimal Persyaratan Sistem :
   + Apache 1.3.33
@@ -41,13 +41,13 @@ CMS for Web publishing and product catalog. Base on CMS Lokomedia
      - Masuk ke https://developers.facebook.com/
      - Klik > Docs > Sharing > Social Plugins > Like Box
      - Isi Facebook Page URL : Isi Link Halaman Anda
-  	+ Contoh: https://www.facebook.com/pages/Lokomedia/121981531278268?fref=ts
+  	+ Contoh: https://www.facebook.com/pages/Maelostore/121981531278268?fref=ts
      - Kemudian klik "Get Code"
      - Copy Id pada baris #xfbml=1&appId=394664137368829&version=v2.0";
   	+ Contoh : 394664137368829
      - Paste kan pada kolom Facebook App Id pada "Pengaturan Tampilan" di Halaman Admin
      - Copy Link Halaman Anda
-  	+ Contoh : pages/Lokomedia/121981531278268?fref=ts
+  	+ Contoh : pages/Maelostore/121981531278268?fref=ts
      - Paste kan pada kolom Facebook pada "Pengaturan Tampilan" di Halaman Admin
      - Kemudian pilih Social Widget : Facebook Like Box
   + Untuk mengganti widget Twitter
