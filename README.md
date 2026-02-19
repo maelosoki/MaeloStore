@@ -80,7 +80,6 @@ CMS for Web publishing and product catalog.
      - Password: karyawan
 
 * Fitur Umum :
-  + Katalog Online ini dibuat dengan Framework "CMS Lokomedia"
   + Dukungan HTML5 & CSS3 untuk browser lama & IE7-IE9
   + Dukungan Responsive Design (min/max-width media query polyfill) untuk IE 6-8
   + Desain web mengadopsi "Adaptive Web Design (AWD)” bukan “Responsive Web Design (RWD)“ untuk keterangan lebih lanjut silakan baca di www.stoepy.com/adaptive-dan-responsive-web-design/
@@ -88,7 +87,6 @@ CMS for Web publishing and product catalog.
   + Menggunakan <noscript>
   + Sebahagian gambar telah mendukung retina display
   + Untuk meringankan beban hosting, beberapa file jQuery telah SVN, tetapi menggunakan "conditional condition" yang mana anda tetap bisa bekerja men-development pada localhost tanpa koneksi internet.
-  + Struktur file/folder yang tidak baku mengikuti lokomedia utk menghindari hacking terhadap website (jika anda mendevelopment ulang)
   + Fasilitas Newsletter dengan fitur aktivasi & unsubscribe via email {Thanks to Munajat}
   + Gambar tambahan produk max hingga 4 gambar
   + Apabila gambar produk tidak diisi maka secara default akan muncul gambar "No Picture"
@@ -135,11 +133,11 @@ CMS for Web publishing and product catalog.
   + Jika anda menggunakan CMS MaeloStore untuk kepentingan komersial dan lainnya, silakan ganti gambar dan konten yang tersedia untuk menghindari kemungkinan tuntutan hak cipta yang akan terjadi.
 
 * Catatan :
-  + Kritik dan saran membangun sangat saya harapkan dari para pembaca/pengguna CMS Lokomedia agar CMS MaeloStore ini sebagai turunan CMS Lokomedia terus dapat berjalan dengan baik dan stabil.
+  + Kritik dan saran membangun sangat saya harapkan dari para pembaca/pengguna CMS MaeloStore agar CMS MaeloStore ini terus dapat berjalan dengan baik dan stabil.
 
-* Kenapa engine CMS MaeloStore diambil dari CMS Lokomedia ?
-  + Alasan utama karena CMS Lokomedia mudah dimodifikasi (dikembangkan) dan mudah pula untuk ditemukan bagian yang salah ketika program sedang diuji
-  + CMS Lokomedia menggunakan metode pemrograman prosedural (terstruktur)
+* Kenapa menggunakan CMS MaeloStore ?
+  + Alasan utama karena CMS MaeloStore mudah dimodifikasi (dikembangkan) dan mudah pula untuk ditemukan bagian yang salah ketika program sedang diuji
+  + CMS MaeloStore menggunakan metode pemrograman prosedural (terstruktur)
   + Terstruktur dapat berarti terpola, bentuk yang mengikuti aturan tertentu, juga berarti sesuatu yang sistematis
   + Beberapa alasan lainnya :
      - Struktur programnya; jelas dan tegas 
